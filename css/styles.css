@@ -949,6 +949,13 @@ img {
 }
 
 .icon-close {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+
+  width: 11px;
+  height: 11px;
   fill: var(--logo-color);
 
   transition-property: fill;
